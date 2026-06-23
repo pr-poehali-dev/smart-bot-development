@@ -1,7 +1,5 @@
 import { motion } from "framer-motion"
 import { Navbar } from "./Navbar"
-import { UTPSection } from "./UTPSection"
-import { ServicesSection } from "./ServicesSection"
 import Icon from "@/components/ui/icon"
 
 const NAVY = "#0D2D6B"
@@ -125,9 +123,6 @@ export function Hero3DStage() {
           ))}
         </div>
       </section>
-
-      <UTPSection />
-      <ServicesSection />
     </>
   )
 }
